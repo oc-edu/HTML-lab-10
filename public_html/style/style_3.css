@@ -1,0 +1,19 @@
+
+body {
+ 
+   display: flex;
+     
+}
+
+aside {
+ 
+   width: 20vw;
+ background-color: #555555;
+}
+
+main {
+ 
+  flex: 1;
+ background-color: #555595;
+    height: calc(100vh - 40vh);
+}

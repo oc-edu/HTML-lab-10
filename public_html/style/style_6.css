@@ -1,0 +1,21 @@
+.row {
+ 
+   display flex;
+ 
+}
+.row_cell {
+ background-color #999972;
+   flex 1;
+
+}
+.row_item {
+ height 5vh;
+background-color #999999;
+  
+}
+
+.row_item_1 {
+ height 20vh;
+background-color #999976;
+  
+}

@@ -1,0 +1,36 @@
+.row {
+ 
+   display: flex;
+  width: 100%px;  height: 100%px;  background-color: #5cacea;
+}
+.row_cell {
+ 
+   flex: 1;
+background-color: #999999;
+}
+.row_cell--2 {
+ 
+   flex: 2;
+ background-color: #9999925;
+}
+.row_cell--3 {
+ 
+   flex: 3;
+ background-color: #999977;
+}
+.row_cell--top {
+ 
+  align-self: flex-start;
+ 
+}
+.row--top {
+ 
+   align-items: flex-start;
+ 
+}
+
+.row--bottom {
+ 
+   align-items: flex-end;
+ 
+}

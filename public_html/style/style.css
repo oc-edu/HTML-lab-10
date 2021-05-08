@@ -1,0 +1,21 @@
+ul {  display: flex; /*or inline-flex*/}
+li {  width: 100px;  height: 100px;  background-color: #8cacea;  margin: 8px;}
+
+.cards {
+ 
+   min-height: 100vh;
+ 
+}
+.cards {
+ 
+  display: flex;
+ 
+  flex-wrap: wrap;
+  align-items: flex-start; justify-content: center;
+}
+.card {
+ 
+  flex: 0 0 250px;
+ background-color: #1cacea;
+   
+}
